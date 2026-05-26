@@ -1,0 +1,59 @@
+body{
+    background-image: url(../../img/lago.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    min-height: 100vh;
+    backdrop-filter: blur(3px);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.cabeçario{
+    height: 80px;
+    width: 100%;
+    background-color: aqua, 0.5;
+    display: flex;
+    padding: 15px;
+}
+
+.titulo{
+    justify-self: center;
+    height: 200px;
+}
+
+h1{
+    font-size: 110px;
+
+    font-family: "Cormorant Garamond", serif;
+
+    font-weight: 300;
+
+    letter-spacing: 25px;
+
+    color: #39485a;
+
+    margin: 0;
+}
+
+.corpo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.bloco1{
+    text-align: start;
+}
+
+.meio{
+    width: 50px;
+    min-height: 500px;
+}
+
+.bloco2{
+    position: relative;
+    right: 20px;
+    text-align: start;
+}
